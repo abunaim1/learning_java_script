@@ -4,3 +4,13 @@ console.log(
     return a - b;
   })
 );
+
+// lasrgest name from a Array
+var human = ["rahim","karim","jabbar","rocket", "rastructure",];
+var lasrgestName = human[0];
+for (var i = 0; i<human.length; i++){
+    if (lasrgestName.length < human[i].length){
+        lasrgestName = human[i];
+    }
+}
+console.log(lasrgestName);
